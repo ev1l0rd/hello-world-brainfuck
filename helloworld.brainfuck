@@ -1,0 +1,70 @@
+[ Doel: Hallo Wereld uitprinten
+
+H   A  L  L  O  32 W  E  R  E  L  D
+72  65 76 76 79 32 87 69 82 69 76 68
+
+Pointer lijst:
+60 range:
+- A (2)
+- E (3)
+- D (4)
+
+70 range:
+- H (6)
+- L (7)
+- O (8)
+
+80 range:
+- R (10)
+- W (11)
+
+30 range:
+- SPATIE (12)
+]
+
++++++ +       Pointer 1 naar 6
+[             Pointers 2 3 en 4 naar 60
+> +++++ +++++
+> +++++ +++++
+> +++++ +++++
+<<< -
+]
+> +++++      Pointer 2 naar 65
+> +++++ ++++ Pointer 3 naar 69
+> +++++ +++  Pointer 4 naar 68
+
+
+> +++++ ++    Pointer 5 naar 70
+[             Pointers 6 7 en 8 naar 70
+> +++++ +++++
+> +++++ +++++
+> +++++ +++++
+<<< -
+]
+> ++          Pointer 6 naar 72
+> +++++ +     Pointer 7 naar 76
+> +++++ ++++  Pointer 8 naar 79
+
+> +++++ +++   Pointer 9 naar 8
+[             Pointer 10 en 11 naar 80
+> +++++ +++++
+> +++++ +++++
+<< -
+]
+> ++          Pointer 10 naar 82
+> +++++ ++    Pointer 11 naar 87
+
+> +++++ +++++ +++++ +++++ +++++ +++++ ++ Pointer 12 naar 32
+
+<<<<<<.       H
+<<<<.         A
+>>>>>.        L
+.             L
+>.            O
+>>>>.         SPATIE
+<.            W
+<<<<<<<<.     E
+>>>>>>>.      R
+<<<<<<<.      E
+>>>>.         L
+<<<.          D
